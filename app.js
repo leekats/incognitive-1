@@ -14,8 +14,8 @@ var test = require('./routes/testr');
     
 var app = express();
 
-mongoose.Promise = require('bluebird');
-mongoose.createConnection(database.url);
+//mongoose.Promise = require('bluebird');
+//mongoose.createConnection(database.url);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
